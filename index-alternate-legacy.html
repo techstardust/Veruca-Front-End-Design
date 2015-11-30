@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width">
   
   <meta property="og:title" content="Find Talented People | Recruiting Automation">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="veruca.io">
-  <meta property="og:site_name" content="Veruca">
-  <meta property="og:description" content="Veruca helps companies efficiently find exceptional people">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="veruca.io">
+	<meta property="og:site_name" content="Veruca">
+	<meta property="og:description" content="Veruca helps companies efficiently find exceptional people">
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/flexslider.css">
@@ -45,7 +45,7 @@
 <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
+<body id="top" data-spy="scroll" data-target=".navbar" data-offset="200">
 
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -55,27 +55,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand img-responsive" href="index.html"><img src="img/logo.png" alt="logo"></a>
+          <a class="navbar-brand img-responsive" href="index.html"><img src="img/Veruca-Logo.png" alt="logo"></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.html">Home</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="team.html">Team</a></li>
-                  <li><a href="pricing.html">Pricing</a></li>
-                  <li><a href="blog.html">Blog</a></li>
-                </ul>
-              </li>
-            <li class="inactive"><a href="blog.html">Success Stories</a></li>
-            <li class="inactive"><a href="contact.php">Contact</a></li>
-            <li class="inactive"><a href="login.html">Login</a></li>
-              <li class="dropdown">
-                </ul>
-              </li>
+            <li><a class="scroll" href="#top">Home</a></li>
+            <li><a class="scroll" href="#services">Services</a></li>
+            <li><a class="scroll" href="#latest-work">Work</a></li>
+            <li><a class="scroll" href="#content1">About</a></li>
+            <li><a class="scroll" href="#latest-news">News</a></li>
+            <li><a class="scroll" href="#bottom">Contact</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
@@ -164,18 +153,20 @@
         </div>
       </div>
     </section>
-
-        <!--Testimonial Section-->
-    <section id="testimonial" class="section">
+    
+    
+    <!--Message Section-->
+    <section id="message" class="section">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-3 margin-30">
-            <img src="img/testimonial-img.png" alt="Title">
+        <div class="row margin-40">
+          <div class="col-sm-12 text-center">
+            <h2>"Inject Speed, savings, and best practices into your scaling and filtering efforts." - RecruitingBlogs.com</h2>
           </div>
-          
-          <div class="col-sm-9">
-            <h2>“Inject Speed, savings, and best practices into your scaling and filtering efforts."</h2>
-            <div class="testimonial-source pull-right">RecruitingTools.com</div>
+        </div>
+        
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <a class="more" href="http://recruitingtools.com/data-i-want-it-now-veruca-beta/"><i class="fa fa-chevron-circle-right fa-2x white"></i></a>
           </div>
         </div>
       </div>
@@ -187,7 +178,7 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-sm-12 margin-40">
-            <h3>Success Stories</h3>
+            <h3>Latest Work</h3>
           </div>
         </div>
           
@@ -205,7 +196,7 @@
       			</div>
       			
       			<div class="project-title margin-30">
-      		    <h4>Grindr</h4>
+      		    <h4>Breakroom</h4>
       		  </div>
       		</div>
       		
@@ -221,7 +212,7 @@
       			</div>
       			
       			<div class="project-title margin-30">
-      		    <h4>Company 2</h4>
+      		    <h4>White Sneaker</h4>
       		  </div>
       		</div>
       		
@@ -237,7 +228,59 @@
       			</div>
       			
       			<div class="project-title margin-30">
-      		    <h4>Company 3</h4>
+      		    <h4>Theme Armada</h4>
+      		  </div>
+      		</div>
+      		
+      	</div><!--End Row of Work-->
+      	
+      	<div class="row margin-40">
+      		
+      		<!--Project Thumbnail One-->
+      		<div class="col-sm-4">
+      			<div class="thumbs">
+        			<img src="img/portfolio1.jpg" class="img-responsive" alt="Image Size 430x280">
+        			<a href="individual-work.html">
+        				<span class="title">
+        					<span><i class="fa fa-link fa-2x"></i></span>
+        				</span>	
+        			</a>
+      			</div>
+      			
+      			<div class="project-title margin-30">
+      		    <h4>Breakroom</h4>
+      		  </div>
+      		</div>
+      		
+      		<!--Project Thumbnail Two-->
+      		<div class="col-sm-4">
+      			<div class="thumbs">
+        			<img src="img/portfolio2.jpg" class="img-responsive" alt="Image Size 430x280">
+        			<a href="individual-work.html">
+        				<span class="title">
+        					<span><i class="fa fa-link fa-2x"></i></span>
+        				</span>	
+        			</a>
+      			</div>
+      			
+      			<div class="project-title margin-30">
+      		    <h4>White Sneaker</h4>
+      		  </div>
+      		</div>
+      		
+      		<!--Project Thumbnail Three-->
+      		<div class="col-sm-4">
+      			<div class="thumbs">
+        			<img src="img/portfolio3.jpg" class="img-responsive" alt="Image Size 430x280">
+        			<a href="individual-work.html">
+        				<span class="title">
+        					<span><i class="fa fa-link fa-2x"></i></span>
+        				</span>	
+        			</a>
+      			</div>
+      			
+      			<div class="project-title margin-30">
+      		    <h4>Theme Armada</h4>
       		  </div>
       		</div>
       		
@@ -251,10 +294,149 @@
         
       </div>
     </section>
-
+    
+    
+    <!--Testimonial Section-->
+    <section id="testimonial" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 margin-30">
+            <img src="img/testimonial-img.png" alt="Title">
+          </div>
+          
+          <div class="col-sm-9">
+            <h2>“Lava has been an asset to our company by providing us with a cutting edge look and a web presence that shows off our work and skills.”</h2>
+            <div class="testimonial-source pull-right">Jeff | Ceo - Creative Company</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!--Content-->      
+    <section id="content1" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>About</h3>
+            <p class="lead">See who we are</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br />
+          </div>
+        </div>
+      
+        <div class="row">
+          
+          <div class="col-sm-6 progress-container margin-100">
+            <!--First Column - To change progress value make sure to adjust bar width and field value to the same amount-->
+            <h3>Our Skills</h3>
+            <div class="display-none" id="progress">
+              <div class="bar-one">
+                    <div class="progress">
+                    	<span class="field">Concepts</span>
+                        <span class="field-value fade-in">60%</span>
+                        <div style="width: 60%;" class="bar"></div>
+                    </div>
+                </div>
+                
+                
+                <div class="bar-two">
+                    <div class="progress">
+                    	<span class="field">Design</span>
+                        <span class="field-value fade-in">75%</span>
+                        <div style="width: 75%;" class="bar"></div>
+                    </div>
+                </div>
+                
+                <div class="bar-three">
+                    <div class="progress">
+                    	<span class="field">Awesome!</span>
+                        <span class="field-value fade-in">100%</span>
+                        <div style="width: 100%;" class="bar"></div>
+                    </div>
+                </div>
+                
+                <div class="bar-four">
+                    <div class="progress">
+                    	<span class="field">Super Awesome!</span>
+                        <span class="field-value fade-in">100%</span>
+                        <div style="width: 100%;" class="bar"></div>
+                    </div>
+                </div>
+            </div><!--End Progress Container-->
+          </div>
+          
+          <div class="col-sm-4 col-sm-offset-1 margin-10">
+            <h3>Our Team</h3>
+              
+              <div class="flexslider">
+                <ul class="slides">
+                  
+                  
+                  <!--Team Member-->
+                  <li>
+                  <div class="col-sm-12 margin-30">
+                    <div class="team-container">
+                      <div class="row">
+                        <div class="col-xs-12 team-member">
+                          <img src="img/team1.jpg" class="img-responsive" alt="Title">
+                        </div>
+                      </div>
+                        
+                      <div class="row text-center">
+                        <div class="col-xs-8 team-info">
+                          <h4><span class="white"> First Last | <small><em>Graphics</em></small></span></h4>
+                        </div>
+                      
+                        <div class="col-xs-4 socialize">
+                          <ul class="list-inline">
+                  					<li><a class="twitter" href="http://www.twitter.com/themearmada" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+                  					<li><a class="facebook" href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+                  					</ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </li>
+                  
+                  <!--Team Member-->
+                  <li>
+                  <div class="col-sm-12 margin-30">
+                    <div class="team-container">
+                      <div class="row">
+                        <div class="col-xs-12 team-member">
+                          <img src="img/team1.jpg" class="img-responsive" alt="Title">
+                        </div>
+                      </div>
+                        
+                      <div class="row text-center">
+                        <div class="col-xs-8 team-info">
+                          <h4><span class="white"> First Last | <small><em>Graphics</em></small></span></h4>
+                        </div>
+                      
+                        <div class="col-xs-4 socialize">
+                          <ul class="list-inline">
+                  					<li><a class="twitter" href="http://www.twitter.com/themearmada" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+                  					<li><a class="facebook" href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+                  					</ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </li>
+                                    
+                </ul>
+              </div><!--End Flex Slider-->
+              
+                            
+          </div>
+        </div><!--End Row-->
+        
+      </div>
+    </section>
+    
     
     <!--Latest News-->
-    <section id="latest-news" class="section">
+    <section id="latest-news" class="section" style="padding-top:0px;">
       <div class="container">
         <div class="row margin-40">
           <div class="col-sm-12 text-center dark-gray">
@@ -303,13 +485,51 @@
         </div>
       </div>
     </section>
+        <!--Testimonials -->
+    <section id="twitter" class="section">
+      <div class="container">
+        <div class="row text-center">
+          
+          <!--Seciton 1-->
+          <div class="col-sm-4 service margin-30">
+            <a href="#">
+              <i class="fa fa-thumbs-up fa-5x dark-gray"></i>
+              <h3>Nadia Danford @ Home Team</h3>
+              <p>"Great team that really understands sales and recruiting!"</p>
+            </a>
+          </div>
+          
+          <!--Seciton 2-->
+          <div class="col-sm-4 service margin-30">
+            <a href="#">
+              <i class="fa fa-thumbs-up fa-5x dark-gray"></i>
+              <h3>Jamie Schwartz @ Haley Stuart</h3>
+              <p>"I believe Veruca has the potential to be a valuable internet sourcing and relationship development/management tool. By automating the process of finding prospects and their contact information, Veruca has the potential to compress the research lifecycle."</p>
+            </a>
+
+          </div>
+          
+          <!--Seciton 3-->
+          <div class="col-sm-4 service margin-30">
+            <a href="#">
+              <i class="fa fa-thumbs-up fa-5x dark-gray"></i>
+              <h3>Ryan Chicon @ TriNet</h3>
+              <p>"The LEADS! In sales, you need accurate Intel and I feel Veruca.io provides that for me."</p>
+            </a>
+
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
     
     <!--Bottom Section-->
     <section id="bottom">
       <div class="container">
-        <div class="row margin-10">
+        <div class="row margin-40">
           <div class="col-sm-10 col-sm-offset-1 text-center">
-            <p>Hermosa Beach, California | 714.606.3810  |  <a href="mailto:james@veruca.io"><i class="icon-envelope-alt"></i> James@Veruca.io</a></p>
+            <p>1234 Main Street Atlanta, GA 30305 | 404.555.5555  |  <a href="mailto:support@themearmada.com"><i class="icon-envelope-alt"></i> support@themearmada.com</a></p>
             <hr>
           </div>
         </div>
@@ -318,9 +538,14 @@
           <div class="col-sm-10 col-sm-offset-1 text-center">
             <!--Social Icons-->          
             <ul class="social-icons">
-    					<li><a class="twitter" href="https://twitter.com/verucahq" target="_blank"><i class="fa fa-twitter fa-3x"></i></a></li>
-    					<li><a class="linkedin" href="https://www.linkedin.com/company/veruca-io" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></li>
-    				</ul>
+              <li><a class="twitter" href="http://www.twitter.com/themearmada" target="_blank"><i class="fa fa-twitter fa-3x"></i></a></li>
+              <li><a class="facebook" href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-3x"></i></a></li>
+              <li><a class="google" href="http://www.googleplus.com" target="_blank"><i class="fa fa-google-plus fa-3x"></i></a></li>
+              <li><a class="instagram" href="http://www.instagram.com" target="_blank"><i class="fa fa-camera-retro fa-3x"></i></a></li>
+              <li><a class="pinterest" href="http://www.pinterest.com" target="_blank"><i class="fa fa-pinterest fa-3x"></i></a></li>
+              <li><a class="linkedin" href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></li>
+              <li><a class="Github" href="http://www.github.com" target="_blank"><i class="fa fa-github-alt fa-3x"></i></a></li>
+            </ul>
           </div>
         </div>
         
@@ -337,8 +562,6 @@
         </div>
       </div>
     </section>
-
-
     
     
     <!-- Javascript
